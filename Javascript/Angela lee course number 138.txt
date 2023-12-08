@@ -1,7 +1,4 @@
-(Angela lee course number 138)
-
-
-
+---------------------------------------(Angela lee course number 138)---------------------
 
 document.querySelector("button").addEventListener("click", handleClick); //It is only for the first button
                       //target.addEventListener(type, Listener); 
@@ -22,7 +19,7 @@ console.log(" I got clicked");
 }                                                 Named Function called respondToClick
 
 
-
+Higher order functions are functions that can take other functions as input.
 
 (click on the thing which you want to change the color/name then click enter in console and then write $0 and press enter)
 $0.innerHTML = "RiteshMishra";
@@ -69,7 +66,4 @@ function add(num1, num2) {
 - calculator(4,5,multiply);
 20
 */
-
-
-High order functions are functions that can take other functions as input.
 
