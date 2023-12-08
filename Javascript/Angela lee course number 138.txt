@@ -1,0 +1,75 @@
+(Angela lee course number 138)
+
+
+
+
+document.querySelector("button").addEventListener("click", handleClick); //It is only for the first button
+                      //target.addEventListener(type, Listener); 
+function handleClick(){
+    alert("Clicked");
+}
+
+
+
+document.querySelector("button").addEventListener("click", function() {
+    console.log(" I got clicked");
+});                                               Funct without create newline funct(Anonymous func)
+
+
+document.querySelector("button").addEventListener("click", respondToClick); 
+    function respondToClick(){
+console.log(" I got clicked");
+}                                                 Named Function called respondToClick
+
+
+
+
+(click on the thing which you want to change the color/name then click enter in console and then write $0 and press enter)
+$0.innerHTML = "RiteshMishra";
+$0.style.color = "blue";
+
+   $0.addEventListener("click", function() {
+    console.log(" I got clicked");
+   }); 
+
+
+
+$0.addEventListener("click", respondToClick); 
+function respondToClick(){
+  console.log(" I got clicked");
+}
+
+
+
+/*
+Calculator
+
+function add(num1, num2) {
+    return num1 + num2;
+    }
+     
+    function subtract(num1, num2) {
+    return num1 - num2;
+    }
+     
+    function multiply(num1, num2) {
+    return num1 * num2;
+    }
+     
+    function divide(num1, num2) {
+    return num1 / num2;
+    }
+     
+    function calculator(num1, num2, operator) {
+    return operator(num1, num2);
+    }
+
+- calculator(4,5,add);
+9
+- calculator(4,5,multiply);
+20
+*/
+
+
+High order functions are functions that can take other functions as input.
+
