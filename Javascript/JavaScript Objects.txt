@@ -1,0 +1,18 @@
+JavaScript Objects
+
+
+var houseKeeper1 = [
+    {name: "Ritesh"},
+    {yearsOfExp:20},
+    {age:18},
+    {studyingRoom: ["hall", "library", "bedroom"]}
+];
+
+
+//Constructor Function (function name should be capital)
+function BellBoy (name, age, hasWorkPermit, language) {
+   this.name = Raj;
+   this.age = 22;
+   this.hasWorkPermit = True;
+   this.language = English;
+}
