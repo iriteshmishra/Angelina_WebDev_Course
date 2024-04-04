@@ -9,10 +9,26 @@ var houseKeeper1 = [
 ];
 
 
-//Constructor Function (function name should be capital)
+//Constructor Function
 function BellBoy (name, age, hasWorkPermit, language) {
    this.name = Raj;
    this.age = 22;
    this.hasWorkPermit = True;
    this.language = English;
 }
+
+----------------------------------------------------
+---- constructor Function(function name should be capital) ----
+
+
+function HouseKeeper (yearsOfExperience, age, name, cleaning) {
+       this.yearsOfExperience = yearsOfExperience;
+       this.age = age;
+       this.name = name;
+       this.cleaning= cleaning;
+}
+
+const houseKeeper1 = new HouseKeeper(9, "20", "Raj", ["lobby", "bedroom"]); 
+const houseKeeper2 = new HouseKeeper(8, "22", "Raaj", ["lobby", "bedroom"]);
+
+console.log(houseKeeper2.name);// Raaj
