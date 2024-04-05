@@ -32,3 +32,19 @@ const houseKeeper1 = new HouseKeeper(9, "20", "Raj", ["lobby", "bedroom"]);
 const houseKeeper2 = new HouseKeeper(8, "22", "Raaj", ["lobby", "bedroom"]);
 
 console.log(houseKeeper2.name);// Raaj
+
+----------------------------------------------------------
+
+function HouseKeeper (yearsOfExperience, name, cleaningRepertoire){
+   this.yearsOfExperience = yearsOfExperience;
+   this.name = name;
+   this.cleaningRepertoire = cleaningRepertoire;
+   this.clean = function (){
+   alert("Cleaning in progress...");
+   }  
+}
+
+var hhouseKeeper = new HouseKeeper(24, "Rohan", ["bedroom"]);
+hhouseKeeper.clean();
+
+Output:- IN ALERT:- Cleaning in progress...
