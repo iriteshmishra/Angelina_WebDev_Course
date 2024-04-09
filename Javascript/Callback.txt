@@ -1,0 +1,25 @@
+Callback
+
+
+function anotherAddEventListener(typeOfEvent, callback) {
+
+  //Detect Event Code
+
+var eventTheHappened = {
+    eventType: "keypress", 
+    key: "p",
+    durationOfKeypress: 2
+}
+
+if (eventThatHappened.eventType === typeOfEvent//that we are looking for//) {
+    callback(eventTheHappened);
+}
+}
+
+>anotherAddEventListener("keypress", function(event){
+    console.log(event);
+});
+
+>document.AddEventListener("keypress", function(event){
+console.log(event);
+});
