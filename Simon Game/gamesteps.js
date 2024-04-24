@@ -529,3 +529,9 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+
+
+
+
+
+//https://riteshsimongame.netlify.app/
