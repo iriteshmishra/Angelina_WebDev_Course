@@ -1,0 +1,13 @@
+JavaScript Tweet Count
+
+var tweet = prompt("compose your tweet");
+var tweetCount = tweet.length
+alert("You have written " + tweetCount + " Characters, you have " + (140-tweetCount)+ " Characters remaining");
+
+
+var tweet = prompt("compose your tweet");
+var tweetUnder140 = tweet.slice(0,140);
+alert(tweetUnder140);
+             OR
+
+alert(prompt("compose your tweet").slice(0, 140));
